@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Quiz</string>
+
+    <string name="trueAnswer">True</string>
+    <string name="wrongAnswer">False</string>
+    <string name="question_1"><b>1.</b> Uganda is not a land locked country</string>
+    <string name="question_2"><b>2.</b> USA means its next to USB</string>
+    <string name="question_3"><b>3.</b> Android app developing is cool when it comes to running the app and it works</string>
+    <string name="question_4"><b>4.</b> At ICT. We\'ve learnt a lot of great staff including drinking everyday tea</string>
+    <string name="question_5"><b>5.</b> A smartphone is a phone that is smart at computations and at display </string>
+    <string name="question_6"><b>6.</b> Kampala is not the capital city of Uganda</string>
+    <string name="question_7"><b>7.</b> Your favorite color is grey and your worst color is bright pink</string>
+    <string name="question_8"><b>8.</b> RAM means Random Access memorandum. Is this answer false</string>
+    <string name="question_9"><b>9.</b> Android applications Jusutech has designed are many and many more are coming</string>
+    <string name="question_10"><b>10.</b> Red clothes can make one get striked by lightning</string>
+
+
+
+</resources>

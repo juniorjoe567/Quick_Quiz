@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:padding="5dp"
+    >
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="490dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/question"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="48dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:text="Hello Worldfsdfwfe3fe3rrweefwewfwfwefefwefefefwwfwefe!"
+            android:textColor="#000"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/scoreLevel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/falseText"
+            android:layout_alignBottom="@+id/falseText"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_gravity="bottom"
+            android:layout_marginEnd="19dp"
+            android:layout_marginRight="19dp"
+            android:text="Score"
+            android:textSize="16sp"
+            android:textColor="#000"/>
+
+
+        <Button
+            android:id="@+id/trueText"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_alignParentBottom="true"
+            android:layout_toLeftOf="@+id/falseText"
+            android:layout_toStartOf="@+id/falseText"
+            android:background="#0f0"
+            android:layout_marginRight="5dp"
+            android:text="@string/trueAnswer" />
+
+        <Button
+            android:id="@+id/falseText"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="39dp"
+            android:layout_marginRight="39dp"
+            android:layout_toLeftOf="@+id/scoreLevel"
+            android:layout_toStartOf="@+id/scoreLevel"
+            android:background="#f00"
+            android:text="@string/wrongAnswer" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ProgressBar
+            android:id="@+id/progress"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:layout_gravity="bottom"/>
+    </LinearLayout>
+
+</LinearLayout>
+
+</ScrollView>
